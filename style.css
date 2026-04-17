@@ -1,0 +1,278 @@
+/* Sean Furlong's CSS file */
+/*SIL Open Font License v1.10
+This license can also be found at this permalink: https://www.fontsquirrel.com/license/almendra
+
+Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name ‘Almendra’
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL */
+
+@font-face {
+  font-family:'almendra';
+  src: url(almendra-regular.otf);
+  font-weight: normal;
+  font-style: normal;} /* This is the default font */
+
+@font-face {
+  font-family:'almendrasc';
+  src: url(almendrasc-regular.otf);
+  font-weight: normal;
+  font-style: normal;} /* This is the font for page titles */
+
+/* Home */
+
+    body.home {
+      font-family: 'almendra', verdana, sans-serif;
+      font-size: 18px;
+      line-height: 1.5;
+      margin: 0;
+      padding: 0;
+      background-image: url(images/green-bg.png);} /* previously background: #194d19 */
+
+    h1.home {
+      text-align: center;} /*centering Alethea title */
+
+    h1.banner {
+      color: #000;
+      color:rgba(0, 0, 0, 0.5);} /* This is making the banner text transparent */
+    
+    header.banner {
+      text-align: center;
+      background: url(images/banner-peach.png) no-repeat;
+      background-position: center center;
+      background-size: 65%;}
+
+    h2.home {
+      text-align: center;} /* centering Welcome to Alethea */
+
+    h3.home {
+      text-align: center;} /* centering in-universe intro */
+
+    p.home {
+      text-align: center;} /* centering intro paragraph */
+
+    nav li.home {
+      text-align: center;} /* centering nav table */
+
+    article.home {
+      width: fit-content;
+      padding: 10px; /* Reduced down from 20 */
+      margin-left: auto;
+      margin-right: auto;} /* centred the text */
+
+    nav.home {
+      width: 300px; /* Increased for emphasis */
+      padding-top: 50px; /* Increased to give room for scroll */
+      padding-bottom: 10px;
+      margin-left: auto;
+      margin-right: auto;} /* centred the navigation table */
+
+    nav ul.home {
+      margin-left: auto;
+      margin-right: auto;} /* To make the nav centred on the home page */
+
+/* Dragons */
+
+    body.dragons {
+      font-family: 'almendra', verdana, sans-serif;
+      font-size: 18px;
+      line-height: 1.5;
+      margin: 0;
+      padding: 0;
+      background-image: url(images/blue-bg.png);} /* previously background: #B0C4DE */
+
+    article.dragons {
+      padding-left: 10px;} /* Intro paragraph */
+
+    article.dragons2 {
+      float: left;
+      width: 450px;
+      padding-left: 10px;
+      padding-bottom: 10px;} /* Important locations */
+
+    article.dragons3 {
+      float: right;
+      width: 450px;
+      padding-right: 10px;
+      padding-bottom: 10px;} /* Culture/relgion */
+ 
+    article.dragons4 {
+      width: 970px;
+      padding-left: 10px;
+      padding-right: 10px;} /* Real world influence */
+
+    nav.dragons {
+      float: right;
+      width: 235px;
+      padding-right: 5px;}
+ 
+/* Devils */
+ 
+    body.devils {
+      font-family: 'almendra', verdana, sans-serif;
+      font-size: 18px;
+      line-height: 1.5;
+      margin: 0;
+      padding: 0;
+      background-image: url(images/purple-bg.png);} /* previously background: #710047 */
+
+    article.devils {
+      padding-left: 10px;} /* Intro paragraph */
+
+    article.devils2 {
+      float: left;
+      width: 450px;
+      padding-left: 10px;
+      padding-bottom: 10px;} /* Important locations */
+
+    article.devils3 {
+      float: right;
+      width: 450px;
+      padding-right: 10px;
+      padding-bottom: 10px;} /* Culture/relgion */
+
+    article.devils4 {
+      width: 970px;
+      padding-left: 10px;
+      padding-right: 10px;} /* Real world influence */
+
+    nav.devils {
+      float: right;
+      width: 235px;
+      padding-right: 5px;}
+
+/* Dead */
+
+    body.dead {
+      font-family: 'almendra', verdana, sans-serif;
+      font-size: 18px;
+      line-height: 1.5;
+      margin: 0;
+      padding: 0;
+      background-image: url(images/yellow-bg.png);} /* previously background: #b1871b */
+
+    article.dead {
+      padding-left: 10px;} 
+
+    article.dead2 {
+      float: left;
+      width: 450px;
+      padding-left: 10px;
+      padding-bottom: 10px;} /* Important locations */
+
+    article.dead3 {
+      float: right;
+      width: 450px;
+      padding-right: 10px;
+      padding-bottom: 10px;} /* Culture/relgion */
+
+    article.dead4 {
+      width: 970px;
+      padding-left: 10px;
+      padding-right: 10px;} /* Real world influence */
+
+    nav.dead {
+      float: right;
+      width: 235px;
+      padding-right: 5px;}
+
+/* General CSS */
+
+h1 {
+  padding-left: 10px;
+  font-family: 'almendrasc', verdana, sans-serif;
+  font-size: 300%;
+  font-weight: bold;
+  font-style: oblique;} /* Set h1 as the title font */
+
+h3 {
+  font-size: 150%;
+  font-weight: 550;} /* Reducing how bold this is */
+
+p {
+  font-family: verdana, arial;}
+
+dt {
+  font-size: 120%;}
+
+dd {
+  font-size: 90%;
+  font-family: verdana, arial;}
+
+p, h1, h2, ol, ul {
+  margin-top: 10px;
+  margin-bottom: 3px;} /* originally 3 by 1 */
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; /* To center the images */ 
+  border-width: 2px; /* removed padding so border is flush with image and thickened border */
+  border-style: solid;
+  border-color: black;}
+
+a {
+  color: #A52A2A;
+  font-weight: normal;
+  text-decoration: none;
+  border-bottom: 1px solid black; 
+  padding-bottom: 1px;}
+
+a:visited {
+  color: #A52A2A;}
+
+a:hover, a:focus, a:active {
+  background-color: #FFEBCD;
+  color: #800000;
+  border-bottom-color: #800000;} /* For the subtle darker colour when hovering over links */
+
+
+div#wrapper {
+  width: 1000px; /* adjusted to be wider */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #66cdaa;
+  background-image: url(images/parchment.png);
+  background-repeat: repeat;
+  background-position: left top;
+  background-attachment: scroll;
+  border: 2px solid black;}
+
+nav ul {
+  list-style-type: none;
+  border: 1px solid black;
+  margin-left: 30px;
+  padding-left: 0px; /* So the colour is flush with the border */
+  border-bottom: none;
+  display: block;
+  line-height: 2;
+  height: 1%;}
+
+nav a {
+  display: block;
+  background: #F5DEB3;
+  padding-right: 5px; /* creating space between words and border */
+  line-height: 2;
+  border-bottom-color:black;
+  height: 1%;}
+
+nav li {
+  font-size: 120%;
+  text-align: right;}
+
+footer {
+  clear: both;
+  padding: 5px;
+  font-size: 70%;
+  height: 1%;
+  color: black;
+  border-top: 2px dotted black;}
+
+footer p {
+  margin-bottom: 10px}
+
+footer a:hover, footer a:focus, footer a:active {
+  background-color: transparent;
+  border: none;}
